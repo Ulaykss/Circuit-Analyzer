@@ -1,0 +1,197 @@
+{
+  "elements": [
+    {
+      "id": 738726480,
+      "type": "Inductor",
+      "x": 129.55,
+      "y": 1.5,
+      "properties": {
+        "Name": "Inductor",
+        "Inductance": 0.001
+      },
+      "rotation_angle": 90,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738724464,
+      "type": "Switch",
+      "x": -1.45,
+      "y": 40.0,
+      "properties": {
+        "Name": "K1",
+        "State": "closed",
+        "Resistance_closed": 1e-06,
+        "Resistance_open": 1000000000000.0
+      },
+      "rotation_angle": 90,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738722880,
+      "type": "Voltage Source",
+      "x": -128.2,
+      "y": 4.45,
+      "properties": {
+        "Name": "Voltage Source",
+        "Voltage": 5.0
+      },
+      "rotation_angle": 270,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738722736,
+      "type": "Resistor",
+      "x": -60.43,
+      "y": -67.39,
+      "properties": {
+        "Name": "Resistor",
+        "Resistance": 1000.0
+      },
+      "rotation_angle": 0,
+      "is_flipped": false,
+      "transform_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738722592,
+      "type": "Resistor",
+      "x": 67.83,
+      "y": -67.39,
+      "properties": {
+        "Name": "Resistor",
+        "Resistance": 1000.0
+      },
+      "rotation_angle": 0,
+      "is_flipped": false,
+      "transform_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "nodes": [],
+  "wires": [
+    {
+      "start_element_id": 738724464,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738722880,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738724464,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738726480,
+      "end_terminal": [
+        25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738726480,
+      "start_terminal": [
+        -25,
+        0
+      ],
+      "end_element_id": 738722592,
+      "end_terminal": [
+        25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738722736,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738722592,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738724464,
+      "start_terminal": [
+        -25,
+        0
+      ],
+      "end_element_id": 738722736,
+      "end_terminal": [
+        25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738722880,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738722736,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    }
+  ],
+  "version": "2.1"
+}

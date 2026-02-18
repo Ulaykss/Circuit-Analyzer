@@ -1,0 +1,148 @@
+{
+  "elements": [
+    {
+      "id": 594384880,
+      "type": "Voltage Source",
+      "x": -97.54,
+      "y": 5.29,
+      "properties": {
+        "Name": "Voltage Source",
+        "Voltage": 5.0
+      },
+      "rotation_angle": 270,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 594384736,
+      "type": "Resistor",
+      "x": 3.4,
+      "y": -63.12,
+      "properties": {
+        "Name": "Resistor",
+        "Resistance": 1000.0
+      },
+      "rotation_angle": 0,
+      "is_flipped": false,
+      "transform_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 594384592,
+      "type": "Inductor",
+      "x": 93.29,
+      "y": 3.59,
+      "properties": {
+        "Name": "Inductor",
+        "Inductance": 0.001
+      },
+      "rotation_angle": 90,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 581997136,
+      "type": "Capacitor",
+      "x": 3.01,
+      "y": 58.58,
+      "properties": {
+        "Name": "Capacitor",
+        "Capacitance": 1e-06
+      },
+      "rotation_angle": 0,
+      "is_flipped": true,
+      "transform_matrix": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "nodes": [],
+  "wires": [
+    {
+      "start_element_id": 594384736,
+      "start_terminal": [
+        -25,
+        0
+      ],
+      "end_element_id": 594384880,
+      "end_terminal": [
+        25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 594384736,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 594384592,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 581997136,
+      "start_terminal": [
+        -25,
+        0
+      ],
+      "end_element_id": 594384592,
+      "end_terminal": [
+        25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 581997136,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 594384880,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    }
+  ],
+  "version": "2.1"
+}

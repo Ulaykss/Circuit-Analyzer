@@ -1,0 +1,195 @@
+{
+  "elements": [
+    {
+      "id": 738224048,
+      "type": "Inductor",
+      "x": -0.76,
+      "y": -28.54,
+      "properties": {
+        "Name": "Inductor",
+        "Inductance": 0.001
+      },
+      "rotation_angle": 90,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738223904,
+      "type": "Capacitor",
+      "x": 0.57,
+      "y": 47.42,
+      "properties": {
+        "Name": "Capacitor",
+        "Capacitance": 1e-06
+      },
+      "rotation_angle": 90,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738223760,
+      "type": "Voltage Source",
+      "x": -120.0,
+      "y": 0.0,
+      "properties": {
+        "Name": "Voltage Source",
+        "Voltage": 5.0
+      },
+      "rotation_angle": 270,
+      "is_flipped": false,
+      "transform_matrix": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738223616,
+      "type": "Capacitor",
+      "x": -60.0,
+      "y": -80.0,
+      "properties": {
+        "Name": "Capacitor",
+        "Capacitance": 1e-06
+      },
+      "rotation_angle": 0,
+      "is_flipped": false,
+      "transform_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 738220880,
+      "type": "Capacitor",
+      "x": 90.0,
+      "y": -80.0,
+      "properties": {
+        "Name": "Capacitor",
+        "Capacitance": 1e-06
+      },
+      "rotation_angle": 0,
+      "is_flipped": false,
+      "transform_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "nodes": [],
+  "wires": [
+    {
+      "start_element_id": 738223616,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738220880,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738223616,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738224048,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738224048,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738223904,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738223760,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738223616,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738223904,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738223760,
+      "end_terminal": [
+        -25,
+        0
+      ]
+    },
+    {
+      "start_element_id": 738220880,
+      "start_terminal": [
+        25,
+        0
+      ],
+      "end_element_id": 738223904,
+      "end_terminal": [
+        25,
+        0
+      ]
+    }
+  ],
+  "version": "2.1"
+}
