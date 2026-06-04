@@ -75,7 +75,7 @@ dist/main.exe
 
 ### 🎬 Demo Video
 
-[![Circuit Analyzer Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/68AbTDCaIe0)
+[![Circuit Analyzer Demo](https://img.youtube.com/vi/68AbTDCaIe0/maxresdefault.jpg)](https://youtu.be/68AbTDCaIe0)
 
 ---
 
