@@ -75,13 +75,7 @@ dist/main.exe
 
 ### 🎬 Demo Video
 
-> Place your demo video file (`demo.mp4`) in the repository root and embed it below, or link to a YouTube/Vimeo upload:
-
-```
-[![Circuit Analyzer Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/68AbTDCaIe0)
-```
-
-*To attach a local video on GitHub, upload it directly in a Pull Request comment or Release asset, then paste the generated URL here.*
+<video src="https://github.com/user-attachments/assets/0a9ba927-d1ef-4f60-9fad-f6c0ec0056d9" width="100%" controls></video>
 
 ---
 
@@ -152,8 +146,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yaroslav.obuxov@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ulaykss)
 [![VK](https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/ulaykss)
-
-> Replace the placeholder links above with your actual contact details.
 
 ---
 

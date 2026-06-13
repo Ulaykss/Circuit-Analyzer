@@ -3,5 +3,6 @@ build/
 dist/
 src/__pycache___/
 main.spec
-Program_demo.mp4
+demo.mp4
 Tips.txt
+Circuit_Analyzer.zip
